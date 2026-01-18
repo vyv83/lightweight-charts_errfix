@@ -7,15 +7,15 @@
 | 1 | critical_bugs | 7 | 7 | ✅ DONE |
 | 2 | high_priority | 15 | 15 | ✅ DONE |
 | 3 | medium_priority | 28 | 28 | ✅ DONE |
-| 4 | low_priority | 10 | 0 | 🔄 NEXT |
-| 5 | architectural_limitations | 20 | 0 | ⏳ |
+| 4 | low_priority | 10 | 10 | ✅ DONE |
+| 5 | architectural_limitations | 20 | 0 | 🔄 NEXT |
 | 6 | feature_requests | 8 | 0 | ⏳ |
 
 ## Текущая задача
 
-**Группа:** `04_low_priority`  
-**Следующий баг:** #51 (Метки price line на обеих осях одновременно)  
-**Файл:** `bug_051_priceline_both_axes.md`
+**Группа:** `05_architectural_limitations`  
+**Следующий баг:** #61 (Отсутствие встроенных tooltips)  
+**Файл:** `limitation_001_no_tooltips.md`
 
 ## Завершённые файлы
 
@@ -75,14 +75,20 @@
 - [x] bug_049_scale_margins_labels.md
 - [x] bug_050_current_price_only.md
 
-### 04_low_priority (0/10)
-- [ ] bug_051_priceline_both_axes.md
-- [ ] bug_052_priceline_highlight.md
-- [ ] bug_053_crosshair_marker_border.md
-- [ ] bug_054_lastprice_animation_overlap.md
-- [ ] bug_055_labels_fixedge_cut.md
-- [ ] bug_056_timescale_partial_visible.md
-- [ ] bug_057_left_axis_partial_visible.md
-- [ ] bug_058_hittest_scale.md
-- [ ] bug_059_resize_observer_jumps.md
-- [ ] bug_060_isfulfilleddata_extra_fields.md
+### 04_low_priority (10/10) ✅
+- [x] bug_051_priceline_both_axes.md
+- [x] bug_052_priceline_highlight.md
+- [x] bug_053_crosshair_marker_border.md
+- [x] bug_054_lastprice_animation_overlap.md
+- [x] bug_055_labels_fixedge_cut.md
+- [x] bug_056_timescale_partial_visible.md
+- [x] bug_057_left_axis_partial_visible.md
+- [x] bug_058_hittest_scale.md
+- [x] bug_059_resize_observer_jumps.md
+- [x] bug_060_isfulfilleddata_extra_fields.md
+
+### 05_architectural_limitations (0/20)
+- [ ] limitation_001_no_tooltips.md
+- [ ] limitation_002_no_timezone.md
+- [ ] limitation_003_client_only.md
+- [ ] ... (ещё 17 ограничений)
