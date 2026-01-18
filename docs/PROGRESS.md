@@ -6,16 +6,16 @@
 |---|--------|-------|--------|--------|
 | 1 | critical_bugs | 7 | 7 | ✅ DONE |
 | 2 | high_priority | 15 | 15 | ✅ DONE |
-| 3 | medium_priority | 28 | 23 | 🔄 NEXT |
-| 4 | low_priority | 10 | 0 | ⏳ |
+| 3 | medium_priority | 28 | 28 | ✅ DONE |
+| 4 | low_priority | 10 | 0 | 🔄 NEXT |
 | 5 | architectural_limitations | 20 | 0 | ⏳ |
 | 6 | feature_requests | 8 | 0 | ⏳ |
 
 ## Текущая задача
 
-**Группа:** `03_medium_priority`  
-**Следующий баг:** #46 (Некорректное поведение кастомной серии влияет на price scale)  
-**Файл:** `bug_046_custom_series_pricescale.md`
+**Группа:** `04_low_priority`  
+**Следующий баг:** #51 (Метки price line на обеих осях одновременно)  
+**Файл:** `bug_051_priceline_both_axes.md`
 
 ## Завершённые файлы
 
@@ -45,7 +45,7 @@
 - [x] bug_021_android_pinch_slow.md
 - [x] bug_022_typescript_strict.md
 
-### 03_medium_priority (23/28)
+### 03_medium_priority (28/28) ✅
 - [x] bug_023_setdata_visible_range.md
 - [x] bug_024_chart_compress_scroll.md
 - [x] bug_025_autoscale_invisible_series.md
@@ -69,8 +69,20 @@
 - [x] bug_043_last_price_animation.md
 - [x] bug_044_crosshair_browser_zoom.md
 - [x] bug_045_extreme_values_freeze.md
-- [ ] bug_046_custom_series_pricescale.md
-- [ ] bug_047_milliseconds_utc.md
-- [ ] bug_048_crosshair_label_width.md
-- [ ] bug_049_scale_margins_labels.md
-- [ ] bug_050_current_price_only.md
+- [x] bug_046_custom_series_pricescale.md
+- [x] bug_047_milliseconds_utc.md
+- [x] bug_048_crosshair_label_width.md
+- [x] bug_049_scale_margins_labels.md
+- [x] bug_050_current_price_only.md
+
+### 04_low_priority (0/10)
+- [ ] bug_051_priceline_both_axes.md
+- [ ] bug_052_priceline_highlight.md
+- [ ] bug_053_crosshair_marker_border.md
+- [ ] bug_054_lastprice_animation_overlap.md
+- [ ] bug_055_labels_fixedge_cut.md
+- [ ] bug_056_timescale_partial_visible.md
+- [ ] bug_057_left_axis_partial_visible.md
+- [ ] bug_058_hittest_scale.md
+- [ ] bug_059_resize_observer_jumps.md
+- [ ] bug_060_isfulfilleddata_extra_fields.md
