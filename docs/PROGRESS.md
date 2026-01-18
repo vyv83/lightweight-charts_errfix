@@ -5,17 +5,17 @@
 | # | Группа | Всего | Готово | Статус |
 |---|--------|-------|--------|--------|
 | 1 | critical_bugs | 7 | 7 | ✅ DONE |
-| 2 | high_priority | 15 | 14 | 🔄 NEXT |
-| 3 | medium_priority | 28 | 0 | ⏳ |
+| 2 | high_priority | 15 | 15 | ✅ DONE |
+| 3 | medium_priority | 28 | 19 | 🔄 NEXT |
 | 4 | low_priority | 10 | 0 | ⏳ |
 | 5 | architectural_limitations | 20 | 0 | ⏳ |
 | 6 | feature_requests | 8 | 0 | ⏳ |
 
 ## Текущая задача
 
-**Группа:** `02_high_priority`  
-**Следующий баг:** #22 (TypeScript strict mode)  
-**Файл:** `bug_022_typescript_strict.md`
+**Группа:** `03_medium_priority`  
+**Следующий баг:** #42 (barSpacing не обновляется при масштабировании)  
+**Файл:** `bug_042_barspacing_zoom.md`
 
 ## Завершённые файлы
 
@@ -28,7 +28,7 @@
 - [x] bug_006_react_strict_mode.md
 - [x] bug_007_nextjs_ssr_crash.md
 
-### 02_high_priority (4/15)
+### 02_high_priority (15/15) ✅
 - [x] bug_008_websocket_degradation.md
 - [x] bug_009_memory_leaks_primitives.md
 - [x] bug_010_setdata_performance.md
@@ -43,4 +43,26 @@
 - [x] bug_019_event_listener_leaks.md
 - [x] bug_020_autoscale_small_values.md
 - [x] bug_021_android_pinch_slow.md
-- [ ] bug_022_typescript_strict.md
+- [x] bug_022_typescript_strict.md
+
+### 03_medium_priority (12/28)
+- [x] bug_023_setdata_visible_range.md
+- [x] bug_024_chart_compress_scroll.md
+- [x] bug_025_autoscale_invisible_series.md
+- [x] bug_026_autoscale_negative.md
+- [x] bug_027_timezone_dst.md
+- [x] bug_028_timescale_gaps.md
+- [x] bug_029_whitespace_line_series.md
+- [x] bug_030_minmove_label_position.md
+- [x] bug_031_primitives_react_sync.md
+- [x] bug_032_crosshair_coordinates.md
+- [x] bug_033_detach_primitive_no_update.md
+- [x] bug_034_primitive_attachment_behavior.md
+- [x] bug_035_marker_shift_new_bar.md
+- [x] bug_036_second_label_positioning.md
+- [x] bug_037_log_scale_volume.md
+- [x] bug_038_log_scale_near_zero.md
+- [x] bug_039_timescale_inconsistency.md
+- [x] bug_040_whitespace_irregular_timescale.md
+- [x] bug_041_bar_height_inconsistency.md
+- [ ] bug_042_barspacing_zoom.md
