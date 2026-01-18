@@ -45,7 +45,7 @@
 - [x] bug_021_android_pinch_slow.md
 - [x] bug_022_typescript_strict.md
 
-### 03_medium_priority (20/28)
+### 03_medium_priority (23/28)
 - [x] bug_023_setdata_visible_range.md
 - [x] bug_024_chart_compress_scroll.md
 - [x] bug_025_autoscale_invisible_series.md
