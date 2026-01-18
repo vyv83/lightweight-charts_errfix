@@ -6,7 +6,7 @@
 |---|--------|-------|--------|--------|
 | 1 | critical_bugs | 7 | 7 | ✅ DONE |
 | 2 | high_priority | 15 | 15 | ✅ DONE |
-| 3 | medium_priority | 28 | 19 | 🔄 NEXT |
+| 3 | medium_priority | 28 | 23 | 🔄 NEXT |
 | 4 | low_priority | 10 | 0 | ⏳ |
 | 5 | architectural_limitations | 20 | 0 | ⏳ |
 | 6 | feature_requests | 8 | 0 | ⏳ |
@@ -14,8 +14,8 @@
 ## Текущая задача
 
 **Группа:** `03_medium_priority`  
-**Следующий баг:** #42 (barSpacing не обновляется при масштабировании)  
-**Файл:** `bug_042_barspacing_zoom.md`
+**Следующий баг:** #46 (Некорректное поведение кастомной серии влияет на price scale)  
+**Файл:** `bug_046_custom_series_pricescale.md`
 
 ## Завершённые файлы
 
@@ -45,7 +45,7 @@
 - [x] bug_021_android_pinch_slow.md
 - [x] bug_022_typescript_strict.md
 
-### 03_medium_priority (12/28)
+### 03_medium_priority (20/28)
 - [x] bug_023_setdata_visible_range.md
 - [x] bug_024_chart_compress_scroll.md
 - [x] bug_025_autoscale_invisible_series.md
@@ -65,4 +65,12 @@
 - [x] bug_039_timescale_inconsistency.md
 - [x] bug_040_whitespace_irregular_timescale.md
 - [x] bug_041_bar_height_inconsistency.md
-- [ ] bug_042_barspacing_zoom.md
+- [x] bug_042_barspacing_zoom.md
+- [x] bug_043_last_price_animation.md
+- [x] bug_044_crosshair_browser_zoom.md
+- [x] bug_045_extreme_values_freeze.md
+- [ ] bug_046_custom_series_pricescale.md
+- [ ] bug_047_milliseconds_utc.md
+- [ ] bug_048_crosshair_label_width.md
+- [ ] bug_049_scale_margins_labels.md
+- [ ] bug_050_current_price_only.md
